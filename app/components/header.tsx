@@ -1,15 +1,16 @@
 import React from "react";
-import HamburgerMenu from "./navigation";
+import NavMenu from "./navigation";
+import Link from "next/link";
 
 export default function Header() {
     return <>
 
-<header id="header">
+        <header id="header">
             <nav className="nav-wrapper">
                 <div className="nav-container">
-                    <a href="#"><img src="images/header-logo.svg" alt="Rom Studio" /></a>
+                    <Link href="/"><img src="images/header-logo.svg" alt="Rom Studio" /></Link>
 
-                    <HamburgerMenu />
+                    <NavMenu />
 
                 </div>
             </nav>

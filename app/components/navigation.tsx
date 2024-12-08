@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import Link from "next/link";
 
-const HamburgerMenu = () => {
+const NavMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   // This effect will run when the menu is toggled
@@ -60,4 +60,4 @@ const HamburgerMenu = () => {
   );
 };
 
-export default HamburgerMenu;
+export default NavMenu;
