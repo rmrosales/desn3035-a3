@@ -1,5 +1,5 @@
-import React from "react"
-import "../src/css/style.css"
+import React from "react";
+import "../src/css/style.css";
 
 export const metadata = {
   title: 'Next.js',

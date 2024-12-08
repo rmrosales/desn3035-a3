@@ -1,6 +1,7 @@
+"use client";
 import React from "react";
 import Header from "./components/header";
-import Banner from "./components/hero-banner"
+import Banner from "./components/heroBanner"
 
 export default function Page() {
     return <>

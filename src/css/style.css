@@ -834,7 +834,7 @@ strong {
     }
 
     .nav-menu li {
-        margin-top: 24px;
+        margin-top: 34px;
     }
 
     .nav-menu.active li a {
@@ -842,6 +842,7 @@ strong {
     }
 
     .nav-menu.active {
+        margin-top: 20px;
         left: 0;
         display: block;
         transition: 0.3s;
@@ -1139,3 +1140,4 @@ strong {
         display: none;
     }
 }
+
