@@ -9,7 +9,7 @@ export default function About() {
                 <div className="about-block">
                     <div className="block-intro">
                         <h4 className="section-title">About</h4>
-                        <h2>Bridging the gap between design & development to bring ideas to life. </h2>
+                        <h2>Bridging the long gap between design & development to bring ideas to life. </h2>
                         <p>With a focus on user-centered solutions, I combine creativity and technical expertise to craft
                             seamless experiences that resonate with users and meet business goals.</p>
                     </div>
