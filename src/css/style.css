@@ -69,8 +69,13 @@ html {
 
 body {
     /* Global settings */
-    /* background-image: url(../images/grid.svg);
-    cursor: url(../images/cursor.svg), auto; */
+    /* background-image: url(/public/images/grid.svg); */
+    /* cursor: url(../images/cursor.svg), auto; */
+    background-size: 22px 22px;
+    /* background-image: radial-gradient(circle, rgba(0, 0, 0, .3) 1px, rgba(0, 0, 0, 0) 1px); */
+    background-image:
+    linear-gradient(to right, rgba(0, 0, 0, .05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, .05) 1px, transparent 1px);
     font-family: var(--font-family);
     font-size: var(--font-size-base);
     color: var(--text-color);
