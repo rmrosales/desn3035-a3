@@ -1,31 +1,26 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 
-export default function Page() {
-    const [typewriterText, setTypewriterText] = useState('');
-    const txt = 'Woorldwide.';
-    const speed = 200; // Speed in milliseconds
-
-    useEffect(() => {
-        let i = 0;
-
-        const typeWriter = () => {
-            if (i < txt.length) {
-                setTypewriterText((prev) => prev + txt.charAt(i));
-                i++;
-                setTimeout(typeWriter, speed);
+export default function Banner() {
+        const [typewriterText, setTypewriterText] = useState('');
+        const txt = 'Woorldwide.';
+        const speed = 200; // Speed in milliseconds
+        const indexRef = useRef(0); // Use ref to track the index without triggering re-renders
+      
+        useEffect(() => {
+          const typeWriter = () => {
+            if (indexRef.current < txt.length) {
+              setTypewriterText((prev) => prev + txt.charAt(indexRef.current));
+              indexRef.current++; // Increment the index
             }
-        };
-
-        typeWriter(); // Start the typing effect
-
-        return () => {
-            i = txt.length; // Cleanup to prevent issues if the component unmounts
-        };
-    }, [txt]);
-
-
+          };
+      
+          const intervalId = setInterval(typeWriter, speed); // Use setInterval to control the typing speed
+      
+          // Cleanup interval on unmount
+          return () => clearInterval(intervalId);
+        }, [txt, speed]); 
 
     return <>
             <section className="banner-wrapper">

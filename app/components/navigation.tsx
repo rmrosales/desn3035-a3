@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import Link from "next/link";
 
 const HamburgerMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -47,12 +48,12 @@ const HamburgerMenu = () => {
       </div>
       <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
         <ul>
-          <li><a className="nav-link" href="#" onClick={closeMenu}>Home</a></li>
-          <li><a className="nav-link" href="#section2"  onClick={closeMenu}>Case Studies</a></li>
-          <li><a className="nav-link" href="#section3"  onClick={closeMenu}>About</a></li>
-          <li><a className="nav-link" href="#"  onClick={closeMenu}>Resume</a></li>
-          <li><a className="hero-nav-link" href="https://www.linkedin.com/in/takierosales"
-            target="_blank">Hire Me</a></li>
+          <li><Link className="nav-link" href="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link className="nav-link" href="#section2"  onClick={closeMenu}>Case Studies</Link></li>
+          <li><Link className="nav-link" href="#section3"  onClick={closeMenu}>About</Link></li>
+          <li><Link className="nav-link" href="#"  onClick={closeMenu}>Resume</Link></li>
+          <li><Link className="hero-nav-link" href="https://www.linkedin.com/in/takierosales"
+            target="_blank">Hire Me</Link></li>
         </ul>
       </nav>
     </div>
