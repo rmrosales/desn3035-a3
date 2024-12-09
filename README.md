@@ -1,7 +1,4 @@
-# desn3035-a3
-
-READ ME
-
+# READ ME
 
 # DESN3035-A3 - Complex Framework Website via React
 

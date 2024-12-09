@@ -7,15 +7,15 @@ export default function Footer() {
                     <img src="./images/footer-logo-ico.svg" alt="" />
                     <div className="footer-links">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="./index.html#section3">About</a></li>
-                            <li><a href="./index.html#section2">Case Studies</a></li>
-                            <li><a href="#">Resume</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/#section3">About</a></li>
+                            <li><a href="/#section2">Case Studies</a></li>
+                            <li><a href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank">Resume</a></li>
                         </ul>
                         <ul>
-                            <li><a href="#">Github</a></li>
-                            <li><a href="#">Dribbble</a></li>
-                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="https://github.com/rmrosales" target="_blank">Github</a></li>
+                            <li><a href="https://dribbble.com/takierosales" target="_blank">Dribbble</a></li>
+                            <li><a href="https://www.linkedin.com/in/takierosales/" target="_blank">LinkedIn</a></li>
                         </ul>
                     </div>
                 </div>

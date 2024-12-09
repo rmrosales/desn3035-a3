@@ -40,7 +40,7 @@ export default function About() {
                         overall user experience. </p>
                     <div className="about-cta-set-wrapper">
                         <a className="hero-cta" id="about-work-together-cta" href="#">Let's Work Together</a>
-                        <a className="cta" href="#">My Resume</a>
+                        <a className="cta" href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank">My Resume</a>
                     </div>
                 </div>
                 <div className="profile-photo">
