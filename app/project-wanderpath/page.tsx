@@ -6,6 +6,7 @@ import Projects from "../components/projects-sect";
 import About from "../components/about-sect";
 import Reviews from "../components/review-sect";
 import BottomBanner from "../components/bottom-banner";
+import Link from "next/link";
 
 export default function Page() {
 
@@ -86,7 +87,7 @@ export default function Page() {
                                 simplicity and an engaging experience.</p>
                         </div>
                         <div className="about-cta-set-wrapper">
-                            <a className="hero-cta" href="#">View The Prototype</a>
+                            <Link className="hero-cta" href="https://www.figma.com/proto/frMQB0OkZnzwRPAOex05VF?node-id=2493:28941" target="_blank">View The Prototype</Link>
                         </div>
                     </div>
 
