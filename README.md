@@ -1,8 +1,6 @@
-# READ ME
-
 # DESN3035-A3 - Complex Framework Website via React
 
-This project is a complex framework website built using React and Next.js. It provides a scalable structure for developing modern web applications.
+This project is a complex framework website (my portfolio) built using React and Next.js. It provides a scalable structure for developing modern web applications.
 
 ## Project Setup
 
@@ -78,6 +76,3 @@ This will check your code for any stylistic or functional issues.
 ## License
 
 This project is licensed under the ISC License.
-
-
-
