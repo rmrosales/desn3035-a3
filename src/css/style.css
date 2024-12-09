@@ -67,7 +67,7 @@ html {
 body {
     /* Global settings */
     /* background-image: url(/public/images/grid.svg); */
-    /* cursor: url(../images/cursor.svg), auto; */
+    cursor: url(../cursor.svg), auto;
     background-size: 22px 22px;
     /* background-image: radial-gradient(circle, rgba(0, 0, 0, .3) 1px, rgba(0, 0, 0, 0) 1px); */
     background-image:
