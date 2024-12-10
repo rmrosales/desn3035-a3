@@ -12,12 +12,12 @@ export default function Footer() {
                             <li><Link href="/">Home</Link></li>
                             <li><Link href="/#section3">About</Link></li>
                             <li><Link href="/#section2">Case Studies</Link></li>
-                            <li><a href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
+                            <li><Link href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</Link></li>
                         </ul>
                         <ul>
-                            <li><a href="https://github.com/rmrosales" target="_blank" rel="noreferrer">Github</a></li>
-                            <li><a href="https://dribbble.com/takierosales" target="_blank" rel="noreferrer">Dribbble</a></li>
-                            <li><a href="https://www.linkedin.com/in/takierosales/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+                            <li><Link href="https://github.com/rmrosales" target="_blank" rel="noreferrer">Github</Link></li>
+                            <li><Link href="https://dribbble.com/takierosales" target="_blank" rel="noreferrer">Dribbble</Link></li>
+                            <li><Link href="https://www.linkedin.com/in/takierosales/" target="_blank" rel="noreferrer">LinkedIn</Link></li>
                         </ul>
                     </div>
                 </div>
