@@ -32,7 +32,7 @@ export default function Banner() {
                         <p className="highlight">Romeo Martin Rosales ⚡ Product Designer + Developer</p>
                         <h1>Designing Products <br /> That Matter. <span className="green-gradient" id="green-gradient">{typewriterText}</span>
                         </h1>
-                        <p>I’m a UI/UX designer and developer based in Toronto focused on creating user-centered <br /> and
+                        <p>I&apos;m a UI/UX designer and developer based in Toronto focused on creating user-centered <br /> and
                             interactive digital experiences for partners around the globe.</p>
                         <div className="cta-set-wrapper">
                             <a className="hero-cta" href="#sectionHire">Let's Work Together</a>

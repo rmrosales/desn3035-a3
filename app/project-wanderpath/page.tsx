@@ -2,9 +2,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Projects from "../components/projects-sect";
-import About from "../components/about-sect";
-import Reviews from "../components/review-sect";
 import BottomBanner from "../components/bottom-banner";
 import Link from "next/link";
 

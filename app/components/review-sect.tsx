@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 export default function Reviews() {
     return <>
 
         <section className="reviews-section-wrapper">
             <div className="reviews-section-container">
                 <div className="hero-review-block">
-                    <h3>“Romeo's ability to blend functionality with aesthetic appeal <strong> ensured that our vision
+                    <h3>“Romeo&apos;s ability to blend functionality with aesthetic appeal <strong> ensured that our vision
                         was not only realized but enhanced.</strong> Will work with Romeo again.”</h3>
                     <div className="client">
                         <div className="client-thumbnail">
