@@ -9,8 +9,8 @@ export default function Footer() {
                     <div className="footer-links">
                         <ul>
                             <li><Link href="/">Home</Link></li>
-                            <li><Link href="/#section3">About</Link></li>
-                            <li><Link href="/#section2">Case Studies</Link></li>
+                            <li><Link href="/#section3" scroll={true} >About</Link></li>
+                            <li><Link href="/#section2" scroll={true} >Case Studies</Link></li>
                             <li><Link href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</Link></li>
                         </ul>
                         <ul>
