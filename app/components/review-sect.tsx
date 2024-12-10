@@ -15,7 +15,7 @@ export default function Reviews() {
                     </div>
                 </div>
                 <div className="hero-review-block">
-                    <h3>“Working with Rom as our product designer was an exceptional experience. He has an awesome work
+                    <h3>“Working with Romeo as our product designer was an exceptional experience. He has an awesome work
                         ethic. <strong>Super-duper highly recommend!</strong>”</h3>
                     <div className="client">
                         <div className="client-thumbnail">
