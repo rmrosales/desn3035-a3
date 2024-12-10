@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+
 
 const NavMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
