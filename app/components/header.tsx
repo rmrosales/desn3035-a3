@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default function Header() {
     return <>
-
         <header id="header">
             <nav className="nav-wrapper">
                 <div className="nav-container">
@@ -15,6 +14,5 @@ export default function Header() {
                 </div>
             </nav>
         </header>
-
     </>
 }

@@ -1,7 +1,7 @@
 import React from "react";
+
 export default function Reviews() {
     return <>
-
         <section className="reviews-section-wrapper">
             <div className="reviews-section-container">
                 <div className="hero-review-block">
@@ -27,6 +27,5 @@ export default function Reviews() {
 
             </div>
         </section>
-
     </>
 }

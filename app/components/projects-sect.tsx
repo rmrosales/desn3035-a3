@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
+
 export default function Projects() {
     return <>
-
         <section className="projects-wrapper" id="section2">
             <h4 className="section-title" id="projects-section-title">Selected Case Studies</h4>
             <div className="projects-grid-container">
@@ -64,6 +64,5 @@ export default function Projects() {
                 </div>
             </div>
         </section>
-
     </>
 }

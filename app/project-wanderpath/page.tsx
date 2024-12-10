@@ -7,8 +7,6 @@ import Link from "next/link";
 
 export default function Page() {
 
-
-
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
