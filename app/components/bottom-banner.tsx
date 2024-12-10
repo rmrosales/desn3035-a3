@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 export default function BottomBanner() {
     return <>
         <section className="banner-wrapper" id="sectionHire">
