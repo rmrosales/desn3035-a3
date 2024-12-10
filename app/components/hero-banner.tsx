@@ -35,7 +35,7 @@ export default function Banner() {
                         <p>I&apos;m a UI/UX designer and developer based in Toronto focused on creating user-centered <br /> and
                             interactive digital experiences for partners around the globe.</p>
                         <div className="cta-set-wrapper">
-                            <a className="hero-cta" href="#sectionHire">Let's Work Together</a>
+                            <a className="hero-cta" href="#sectionHire">Let&apos;s Work Together</a>
                             <a className="cta"  id="case-studies-cta"  href="#section2">Case Studies</a>
                         </div>
                     </div>

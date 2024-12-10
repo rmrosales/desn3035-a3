@@ -39,7 +39,7 @@ export default function About() {
                         navigate the design process, ensuring that every element serves a purpose while enhancing the
                         overall user experience.</p>
                     <div className="about-cta-set-wrapper">
-                        <a className="hero-cta" id="about-work-together-cta" href="#">Let's Work Together</a>
+                        <a className="hero-cta" id="about-work-together-cta" href="#">Let&apos;s Work Together</a>
                         <a className="cta" href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank" rel="noreferrer">My Resume</a>
                     </div>
                 </div>
