@@ -41,10 +41,10 @@ export default function Page() {
             <div className="fade-section">
                 <Banner />
             </div>
-            <div>
+            <div className="fade-section">
                 <Projects />
             </div>
-            <div>
+            <div className="fade-section">
                 <About />
             </div>
             <div className="fade-section">
