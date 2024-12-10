@@ -76,7 +76,7 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
 
       - name: Lint Code
-        run: ${{ steps.detect-package-manager.outputs.runner }} lint
+        run: npm run lint
 
       - name: Run Tests
         run: ${{ steps.detect-package-manager.outputs.runner }} test
