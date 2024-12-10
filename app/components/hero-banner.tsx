@@ -30,7 +30,7 @@ export default function Banner() {
                             <img src="./images/hero-mini-photo.webp" alt="" />
                         </div>
                         <p className="highlight">Romeo Martin Rosales ⚡ Product Designer + Developer</p>
-                        <h1>Designing Product <br /><span className="green-gradient" id="green-gradient">{typewriterText}</span>
+                        <h1>Designing Products<br />That Matter <span className="green-gradient" id="green-gradient">{typewriterText}</span>
                         </h1>
                         <p>I&apos;m a UI/UX designer and developer based in Toronto focused on creating user-centered <br /> and
                             interactive digital experiences for partners around the globe.</p>
