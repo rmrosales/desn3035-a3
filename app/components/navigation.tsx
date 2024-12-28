@@ -50,8 +50,8 @@ const NavMenu = () => {
       <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
         <ul>
           <li><Link className="nav-link" href="/" onClick={closeMenu}>Home</Link></li>
-          <li><Link className="nav-link" href="/#section2" onClick={closeMenu}>Case Studies</Link></li>
-          <li><Link className="nav-link" href="/#section3" onClick={closeMenu}>About</Link></li>
+          <li><Link className="nav-link" href="/#section2#" onClick={closeMenu}>Case Studies</Link></li>
+          <li><Link className="nav-link" href="/#section3#" onClick={closeMenu}>About</Link></li>
           <li><Link className="nav-link" href="https://docs.google.com/document/d/1KqaQEuG12TvkFZHHofGy-mMIVG_9bF7fMXY-jlOoIog/edit?usp=sharing" target="_blank"  onClick={closeMenu}>Resume</Link></li>
           <li><Link className="hero-nav-link" href="https://www.linkedin.com/in/takierosales"
             target="_blank">Hire Me</Link></li>

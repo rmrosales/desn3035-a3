@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Projects() {
     return <>
-        <section className="projects-wrapper" id="section2">
+        <section className="projects-wrapper" id="section2#">
             <h4 className="section-title" id="projects-section-title">Selected Case Studies</h4>
             <div className="projects-grid-container">
                 <div className="project-card">

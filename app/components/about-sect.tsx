@@ -5,7 +5,7 @@ export default function About() {
 
 
 
-        <section className="about-wrapper" id="section3">
+        <section className="about-wrapper" id="section3#">
             <div className="about-block">
                 <div className="block-intro">
                     <h4 className="section-title">About</h4>
