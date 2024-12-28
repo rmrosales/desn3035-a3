@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
+import Header from "../components/header-external";
+import Footer from "../components/footer-external";
 import BottomBanner from "../components/bottom-banner";
 import Link from "next/link";
 
