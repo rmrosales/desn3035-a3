@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BottomBanner() {
     return <>
-        <section className="banner-wrapper" id="sectionHire#">
+        <section className="banner-wrapper" id="sectionHire">
             <div className="bottom-CTA-container">
                 <div className="banner-block">
                     <div className="hero-mini-photo">
